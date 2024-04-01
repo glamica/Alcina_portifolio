@@ -50,6 +50,9 @@ footer div > * {
     border-radius: 15px;
     box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.336);
 }
+footer div > *:focus * {
+    background-color: rgba(0, 0, 255, 0.363);
+}]
 .perfil {
     width: 200px;
 }
