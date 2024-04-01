@@ -32,3 +32,19 @@ footer div {
 footer div * {
     width: 50px;
 }
+footer div > * {
+    margin: 8px;
+    transition: scale 0.1s;
+}
+footer div > *:not(:hover) {
+    scale: 100%;
+}
+footer div > *:hover {
+    scale: 110%;
+}
+footer div > * {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.336);
+}
