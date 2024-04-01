@@ -23,11 +23,13 @@ footer {
     position: sticky;
     bottom: 0;
 }
-footer div {
+footer > div {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
-    width: 60%;
+    max-width: 50%;
+    /* min-width: 40%; */
+    align-items: center;
 }
 footer div * {
     width: 50px;
@@ -47,4 +49,10 @@ footer div > * {
     padding: 15px;
     border-radius: 15px;
     box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.336);
+}
+.perfil {
+    width: 200px;
+}
+.perfil * {
+    width: 100%;
 }
